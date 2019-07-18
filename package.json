@@ -1,6 +1,6 @@
 {
   "name": "numsjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a JS module for calculation and mathematics",
   "main": "index.js",
   "scripts": {
