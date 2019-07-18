@@ -1,0 +1,25 @@
+{
+  "name": "numsjs",
+  "version": "1.0.0",
+  "description": "This is a JS module for calculation and mathematics",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeerTrodis/numsjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeerTrodis/numsjs/issues"
+  },
+  "homepage": "https://github.com/DeerTrodis/numsjs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "char": "^1.0.2",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {}
+}
