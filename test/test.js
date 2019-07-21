@@ -1,7 +1,9 @@
 'use strict';
 
 var expect = require('chai').expect;
-var { add, sub, mul, div } = require('../index');
+var { add, sub, mul, div, isPalindrome,
+    getPermutation,
+    computeArea,} = require('../index');
 
 describe('add', function() {
     it('1+1=2', function() {
@@ -33,5 +35,11 @@ describe('div', function() {
     })
     it('2/0=MAX_INT', function() {
         expect(div(2,0)).to.equal(Number.MAX_SAFE_INTEGER)
+    })
+})
+
+describe('number is palindrom', function() {
+    it('should be palindrom if x = 12321', function() {
+        expect(isPalindrome(12321)).to.equal(true)
     })
 })
