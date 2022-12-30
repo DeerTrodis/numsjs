@@ -22,7 +22,7 @@
     "char": "^1.0.2",
     "coveralls": "^3.0.5",
     "istanbul": "^0.4.5",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "dependencies": {}
 }
